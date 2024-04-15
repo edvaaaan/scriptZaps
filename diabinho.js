@@ -23,4 +23,6 @@ async function enviarScript(scriptText){
     return lines.length;
 }
 
-enviarScript(``).then(e => console.log(`Código finalizado, ${e} mensagens enviadas`)); // COLE SEU SCRIPT AQUI ! 
+enviarScript(`
+
+`).then(e => console.log(`Código finalizado, ${e} mensagens enviadas`)); // COLE SEU SCRIPT AQUI DENTRO ! 
